@@ -1,12 +1,19 @@
-#include<stdio.h>
 /**
- * Prints the line witha new line at the end
+ * main start point
+ *
+ *
+ *
  *
  * 
+ *
+ *
+ * return 0 (success)
  */
-int main(){
+#include<stdio.h>
+int main(void) /* void doesn't return a value*/
+{
 
 	printf("with proper grammar, but the outcome is a piece of art,\n");
-	
-	return 0;
+	/*if code is trues will return 0*/
+	return (0);
 }
