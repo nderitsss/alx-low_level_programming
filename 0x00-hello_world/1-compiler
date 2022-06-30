@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc source.c -o $CFILE >$CFILE.c
+gcc source.c -o $CFILE >$CFILE.o
