@@ -1,4 +1,4 @@
-#include <studio.h>
+#include<stdio.h>
 /**
  * Prints the line witha new line at the end
  *
