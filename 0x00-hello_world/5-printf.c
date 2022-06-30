@@ -1,16 +1,10 @@
-/**
- * main start point
- *
- *
- *
- *
- * 
- *
- *
- * return 0 (success)
- */
 #include<stdio.h>
-int main(void) /* void doesn't return a value*/
+/**
+ * main -Entry point
+ *
+ * Return Always 0 success
+ */
+int main(void)
 {
 
 	printf("with proper grammar, but the outcome is a piece of art,\n");
