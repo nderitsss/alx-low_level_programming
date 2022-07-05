@@ -4,7 +4,8 @@
  *
  * Return always success 0
  */
-int _putchar(char* c)
+int _putchar(char c[])
 {
-	return (write(1, &c ,25));
+	putchar(c);
+	return (0);
 }
