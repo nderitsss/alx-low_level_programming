@@ -1,11 +1,13 @@
-#include <stdio.h>
-/**
+#include <unistd.h>
+/*
  * main -Entry point
  *
  * Return always success 0
  */
-int _putchar(char c[])
+int _putchar(char c)
+
 {
-	putchar(c);
-	return (0);
+
+		return (write(1, &c, 1));
+
 }
