@@ -4,8 +4,19 @@
  *
  * Return : success = 0
  */
-int main(void)
+void print_alphabet_x10(void)
 {
+	int i = 0;
+	char c = 'a';
 
-	return (0);
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
+	while ( i < 10)
+	{
+		_putchar(c);
+		i++;
+	}
+	}
+	_putchar('\n');
 }
