@@ -17,6 +17,7 @@ void print_to_98(int n)
 			if (n == upper)
 			{
 				printf("%d \n", n);
+				break;
 			}
 			else
 			{
@@ -33,6 +34,7 @@ void print_to_98(int n)
 			if (n == upper)
 			{
 				printf("%d \n", n);
+				break;
 			}
 			else
 			{
