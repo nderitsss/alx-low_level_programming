@@ -3,6 +3,7 @@
 #define MAIN_H
 
 int _putchar(char c);
+void print_alphabet(void);
 
 #endif /*MAIN_H*/
 
@@ -11,16 +12,9 @@ int _putchar(char c);
  * main -Entry point
  *
  * Return always success 0
- */
-/**
-void print_alphabet(void)
-{
-	char c = 'a';
-
-	for (c = 'a'; c <= 'z'; c++)
-	_putchar(c);
-}
+ 
 */
+
 /**
 
 {void print_alphabet_x1id)
