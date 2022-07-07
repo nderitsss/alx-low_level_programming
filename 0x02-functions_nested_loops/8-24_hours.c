@@ -4,13 +4,10 @@
 
 /**
  *
- * * main - Entry point
+ * jack_bauer - Entry point
  *
- * *
- *
- * * Return Always (Success) 0
- *
- * */
+ * Return Always (Success) 0
+ */
 void jack_bauer(void)
 {
 	int hour, h1, h2, min, min1, min2;
@@ -18,7 +15,7 @@ void jack_bauer(void)
 	for (hour = 0; hour < 24; hour++)
 	{
 		h1 = hour / 10;
-		h2 = hour %10;
+		h2 = hour % 10;
 		for (min = 0; min < 60; min++)
 		{
 			min1 = min / 10;
