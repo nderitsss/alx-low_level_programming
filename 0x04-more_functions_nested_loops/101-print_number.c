@@ -10,7 +10,6 @@
 
 void print_number(int n)
 {
-	int k = count(n);
 
 	if (n < 0)
 	{
@@ -21,14 +20,17 @@ void print_number(int n)
 	{
 		_putchar('0');
 	}
-	if (n < 9) 
+	if (n > 999)
 	{
-		_putchar(n + '0');
+		_putchar(n / 1000 + '0');
+	}
+	if (n > 99)
+	{
+		_putchar(n / 100 + '0');
 	}
 	if (n > 9)
-		while (k > 1)
-		{
-			_putchar(n / 10*(k-1) + '0');
-		}
-	_putchar(k % 10 + '0');
+	{
+		_putchar(n / 10 + '0');
+	}
+	_putchar(n % 10 + '0');
 }
