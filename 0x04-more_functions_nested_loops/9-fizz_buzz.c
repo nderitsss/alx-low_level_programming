@@ -29,5 +29,6 @@ int main(void)
 		}
 	num++;
 	}
+	_putchar(10);
 	return (0);
 }
