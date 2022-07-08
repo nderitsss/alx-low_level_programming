@@ -3,8 +3,8 @@
 #include <stdlib.h>
 #include <ctype.h>
 /**
- * main - nested loop functions
- *
+ * _isupper - nested loop functions
+ * c is the char being checked
  * Return 0
  */
 int _isupper(int c)
@@ -13,7 +13,7 @@ int _isupper(int c)
 	{
 		return (1);
 	}
-	else 
+	else
 	{
 		return (0);
 	}
