@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-/** 
+/**
  * print_array - prints an array of numbers
  * @a : the integer
  * @n : size of array
@@ -15,7 +15,7 @@ void print_array(int *a, int n)
 	{
 		printf("%d", a[i]);
 		if (i == n - 1)
-		{ 
+		{
 			break;
 		}
 			printf(", ");
