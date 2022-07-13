@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * *_strcpy - copies srting
+ * _strcpy - copies srting
  * @ dest : where the value returns
- * @src : where i am copying from
+ * @ src : where i am copying from
  *
  * Return will be found in dest
  */
