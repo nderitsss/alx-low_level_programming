@@ -12,9 +12,7 @@ char *_strcpy(char *dest, char *src)
 {
 	char *p;
 
-	src = (char *) src;
-	dest = (char *)dest;
-
-	p = strcpy(src, dest);
+	strcpy(dest, src);
+	p = dest;
 	return (p);
 }
