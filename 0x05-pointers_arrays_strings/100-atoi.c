@@ -4,14 +4,14 @@
 #include <stdlib.h>
 /**
  * _atoi - converts strings to integers
- * @ s : the string
+ * @s : the string
  *
  * Return Always 0
  */
 int _atoi(char *s)
 {
 	int p;
-	
+
 	p = atoi(s);
 	if (isdigit(p) != 0)
 	{
@@ -23,10 +23,9 @@ int _atoi(char *s)
 	}
 	if (p < 0)
 	{
-		printf ("-");
-		printf("%d\n", p * - 1);
+		printf("-");
+		printf("%d\n", p * -1);
 	}
-	
 	return (p);
 	_putchar(10);
 }
