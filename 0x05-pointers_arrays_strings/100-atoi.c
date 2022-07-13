@@ -1,4 +1,5 @@
 #include "main.h"
+#include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>
 /**
@@ -18,13 +19,14 @@ int _atoi(char *s)
 	}
 	if (p > 0)
 	{
-		printf("%d", p);
+		printf("%d\n", p);
 	}
 	if (p < 0)
 	{
 		printf ("-");
-		printf("%d", p * -1);
+		printf("%d\n", p * - 1);
 	}
 	
-	return (1);
+	return (p);
+	_putchar(10);
 }
