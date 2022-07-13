@@ -3,7 +3,7 @@
 #include <string.h>
 /**
  * print_rev - reverses a string
- * @*s : a pointer
+ * @s : a pointer
  *
  * Return Always 0
  */
@@ -16,7 +16,7 @@ void print_rev(char *s)
 		n++;
 	}
 
-	while (n >=0)
+	while (n >= 0)
 	{
 		_putchar(s[n]);
 		n--;
