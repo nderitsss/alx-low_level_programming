@@ -4,21 +4,18 @@
 #include <stdlib.h>
 /**
  * string_toupper - converts strings to uppercase
+ * @s: the string in question
  *
- * Return Always 0
+ * Return: Always 0
  */
 char *string_toupper(char *s)
 {
 	int i;
-	int z;
-	char *p;
 
-	while (s[z] != '\0')
-		z++;
-	for (i = 0; i < z; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		_putchar(toupper(s[i]));
+		if (s[i] >= 'a' && s[i] <= 'z')
+			s[i] = s[i] - 32;
 	}
-	 p = s;
-	return (p);
+	return (s);
 }
