@@ -6,7 +6,7 @@
  * @s1 : the destination string
  * @s2 : the string being copied
  *
- * Return ALways 0
+ * Returns int
  */
 int _strcmp(char *s1, char *s2)
 {
