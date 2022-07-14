@@ -7,7 +7,7 @@
  * @src : the string being copied
  * @n : limites the bytes
  *
- * Return Always 0
+ * Return: Always 0
  */
 char *_strncpy(char *dest, char *src, int n)
 {
