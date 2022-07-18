@@ -10,13 +10,12 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	char* p;
+	char *p;
 
 	p = strstr(haystack, needle);
 
 	if (p)
-		return(p);
+		return (p);
 	else
 		return (NULL);
-	
 }

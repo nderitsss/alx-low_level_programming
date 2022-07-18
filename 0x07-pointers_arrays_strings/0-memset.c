@@ -3,7 +3,7 @@
 #include <string.h>
 /**
  * _memset - fills a block of memory with a particular value
- * @s : the string 
+ * @s : the strinig
  * @b : the character to fill with
  * @n : the number of bytes to fill with
  *

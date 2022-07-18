@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdio.h>
 /**
- * _strpbrk : compares two string till finds the first alike caracter
+ * _strpbrk - compares two string till finds the first alike caracter
  * @s : the string
  * @accept : the charcater
  *
@@ -10,7 +10,7 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-	char* p;
+	char *p;
 
 	p = strpbrk(s, accept);
 	return (p);
