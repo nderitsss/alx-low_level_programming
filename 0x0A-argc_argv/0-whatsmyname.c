@@ -7,7 +7,7 @@
  * @argc: prints an int
  * @argv: prints a string
  *
- * Return always 0
+ * Return: always 0
  */
 int main(int argc, char **argv)
 {
