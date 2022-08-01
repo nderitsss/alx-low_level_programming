@@ -12,6 +12,10 @@ void _print_rev_recursion(char *s)
 	char copy[10000];
 	int len = strlen(s) - 1;
 
+	if (len < 0)
+	{
+		return;
+	}
 	if (len == 0)
 	{
 		_putchar(*s);
