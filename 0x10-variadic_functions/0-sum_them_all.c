@@ -5,7 +5,7 @@
  * @n : the integers
  * @... : an ellipse
  *
- * Return : Always an int
+ * Return: Always an int
  */
 int sum_them_all(const unsigned int n, ...)
 {
@@ -14,18 +14,15 @@ int sum_them_all(const unsigned int n, ...)
 	int i;
 	int sum = 0;
 
-	va_start(pd,n);
-	
-	if ( n == 0)
+	va_start(pd, n);
+	if (n == 0)
 	{
-		return 0;
+		(return 0);
 	}
-
-	for (i = 0;i < p;i++)
+	for (i = 0; i < p; i++)
 	{
-		sum += va_arg(pd,int);
+		sum += va_arg(pd, int);
 	}
-
 	va_end(pd);
 	return (sum);
 }
