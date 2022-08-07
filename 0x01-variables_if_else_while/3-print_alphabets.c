@@ -4,7 +4,7 @@
 /**
  * main - prints functions with both upper and lowercase letters
  *
- * Return : Always (success) 0
+ * Return: Always (success) 0
  */
 int main(void)
 {

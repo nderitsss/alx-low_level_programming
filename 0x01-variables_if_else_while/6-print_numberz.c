@@ -3,7 +3,7 @@
 /**
  * main - printd all numbers from zero to nine using putchar
  *
- * Return : Always (success) 0
+ * Return: Always (success) 0
  */
 int main(void)
 {
