@@ -1,3 +1,3 @@
 #!/bin/bash
 #include "main.h"
-ar -rc liball.a *.o
+ar -rc liball.a *.c
