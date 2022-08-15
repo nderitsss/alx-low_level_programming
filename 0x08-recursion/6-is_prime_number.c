@@ -8,5 +8,7 @@
  */
 int is_prime_number(int n)
 {
+	int m = n / 2;
 
+	if (is_prime_number(n) / m == 0)
 }

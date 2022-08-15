@@ -11,7 +11,7 @@ size_t print_list(const list_t *h)
 {
 	int count = 0;
 	
-	h = malloc(sizeof(struct list_t));
+	h = malloc(sizeof(list_t));
 
 	if (h == NULL)
 	{

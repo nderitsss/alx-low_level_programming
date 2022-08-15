@@ -8,16 +8,16 @@
  *
  * Result : mul 
  */
-int main(int argc, char **argv)
+int mul(int a, int b)
 {
-	int a;
-	int b;
-	void(argc);
-	void(argv);
-
-	if (argc < 3)
+	if (argc(mul) < 3)
+	{
 		printf("Error");
-		return (1);
-	printf("%d", a * b);
-	return (0);
+		return 1;
+	}
+	else
+	{
+		return (a * b);
+	}
+
 }
