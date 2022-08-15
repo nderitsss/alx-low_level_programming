@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 /**
  * argstostr - concatenates two strings
@@ -20,10 +20,9 @@ char *argstostr(int ac, char **av)
 	}
 	while (i <= ac)
 	{
-		strcpy(s,av);
+		strcpy(s,*av);
 		_putchar(10);
 		i++;
 	}
-
-
+	return (s);
 }
