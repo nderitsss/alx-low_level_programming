@@ -27,6 +27,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		return (NULL);
 	}
+	if (s1 == NULL || s2 == NULL)
+	{
+		return ("");
+	}
 	strcpy(copy, s1);
 	copy = strncat(copy, s2, n);
 	return (copy);
