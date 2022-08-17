@@ -3,17 +3,17 @@
 #include <stdio.h>
 /**
  * main - adds positive integers
- * @agrc : counts arguments
- * @agrc : arguments
+ * @argc : counts arguments
+ * @argv : arguments
  *
- * Return Always 0
+ * Return: Always 0
  */
 int main(int argc, char *argv[])
 {
 	int sum = 0;
 	int i;
 	int d;
-	
+
 	if (argc == 1)
 	{
 		printf("0\n");
@@ -30,6 +30,6 @@ int main(int argc, char *argv[])
 		}
 		sum += d;
 	}
-	printf("%d\n",sum);
-	return(0);
+	printf("%d\n", sum);
+	return (0);
 }
