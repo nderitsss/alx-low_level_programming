@@ -9,9 +9,20 @@
  */
 int _sqrt_recursion(int n)
 {
+	int start = 1;
+
 	if (n < 0)
 	{
 		return (-1);
 	}
-
+	if (start * start != n)
+	{
+		start++;
+		return (_sqrt_recursion(n));
+	}
+	else if (start * start == n)
+	{
+		return (start);
+	}
+	return (-1);
 }
