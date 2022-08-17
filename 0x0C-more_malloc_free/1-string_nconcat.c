@@ -18,7 +18,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	sl2 = strlen(s2);
 	if (n >= sl2)
 	{
-		n = sl2;
+		sl3 = sl1 + sl2 + 1;
 	}
 	sl3 = sl1 + n + 1;
 	copy = malloc(sizeof(sl3));
