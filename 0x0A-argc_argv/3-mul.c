@@ -6,7 +6,7 @@
  * @argc: int 1
  * @argv: int 2
  *
- * Return: mul 
+ * Return: mul
  */
 int main(int argc, char *argv[])
 {
@@ -15,10 +15,10 @@ int main(int argc, char *argv[])
 	if (argc != 3)
 	{
 		printf("Error\n");
-		return 1;
+		return (1);
 	}
 	mul = atoi(argv[1]) * atoi(argv[2]);
-	printf("%d\n",mul);
+	printf("%d\n", mul);
 
-	return 0;
+	return (0);
 }
