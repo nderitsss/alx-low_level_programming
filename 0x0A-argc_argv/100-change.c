@@ -43,11 +43,10 @@ int main(int argc, char *argv[])
 			count += d / 2;
 			d = d % 2;
 		}
-		else 
+		else
 		{
 			count += d;
 		}
-
 	}
 	return (count);
 }
