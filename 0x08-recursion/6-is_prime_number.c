@@ -4,13 +4,13 @@
  * is_prime_number - find prime numbers
  * @n : the int
  *
- * Return ; always an int
+ * Return: always an int
  */
 int is_prime_number(int n)
 {
 	int m = 2;
-	
-	if (n == 1)
+
+	if (n == 1 || n < 0)
 	{
 		return (0);
 	}
@@ -20,6 +20,6 @@ int is_prime_number(int n)
 		return (0);
 		is_prime_number(n);
 	}
-	else 
+	else
 		return (1);
 }
