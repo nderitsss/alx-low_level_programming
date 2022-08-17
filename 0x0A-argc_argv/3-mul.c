@@ -3,21 +3,22 @@
 #include <stdio.h>
 /**
  * main - multiplies two integers
- * @a : int 1
- * @b : int 2
+ * @argc: int 1
+ * @argv: int 2
  *
- * Result : mul 
+ * Return: mul 
  */
-int mul(int a, int b)
+int main(int argc, char *argv[])
 {
-	if (argc(mul) < 3)
+	int mul;
+
+	if (argc != 3)
 	{
-		printf("Error");
+		printf("Error\n");
 		return 1;
 	}
-	else
-	{
-		return (a * b);
-	}
+	mul = atoi(argv[1]) * atoi(argv[2]);
+	printf("%d\n",mul);
 
+	return 0;
 }
