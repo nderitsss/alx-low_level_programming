@@ -10,20 +10,16 @@
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t->name = name;
-	dog_t->age = age;
-	dog_t->owner = owner;
+	char *s;
+	char *p;
 
-	char s;
-	char p;
-	
+	dog_t.name = name;
+	dog_t.age = age;
+	dog_t.owner = owner;
+
 	strcpy(s,owner);
 	strcpy(p,name);
 	if (strlen(name) == 0)
-	{
-		return (NULL);
-	}
-	if (strlen(owner) == 0)
 	{
 		return (NULL);
 	}
