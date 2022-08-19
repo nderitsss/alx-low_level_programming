@@ -2,12 +2,16 @@
 #include <stdlib.h>
 /**
  * print_name - prints the name of a function
- * @name : the name 
+ * @name : the name
  * @f: a functionn pointer
  *
  * Return: nothing
  */
 void print_name(char *name, void (*f)(char *))
 {
+	if (f == NULL)
+	{
+		return;
+	}
 	f(name);
 }
