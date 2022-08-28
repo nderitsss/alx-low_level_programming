@@ -19,6 +19,10 @@ unsigned int binary_to_uint(const char *b)
 	{
 		return (0);
 	}
+	if (atoi(b) == 1)
+	{
+		return (1);
+	}
 	i = atoi(b);
 	while (i != 0)
 	{
