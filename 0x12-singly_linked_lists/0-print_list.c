@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * print_list - prints the elements of a list
- * @list_t*h: the list
+ * @h: the list
  *
  * Return: the number of elelments in the list
  */
@@ -17,11 +17,9 @@ size_t print_list(const list_t *h)
 	}
 	while (h != NULL)
 	{
-		{
-			printf("%d", h->len);
-		}
-		count ++;
+		printf("[%d] %s\n",h->len, h->str);
+		count++;
 		h = h->next;
 	}
-	return (count);	
+	return (count);
 }
