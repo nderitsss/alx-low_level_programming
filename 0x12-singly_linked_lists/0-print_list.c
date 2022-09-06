@@ -9,9 +9,7 @@
  */
 size_t print_list(const list_t *h)
 {
-	int count = 0;
-	
-	h = malloc(sizeof(list_t));
+	size_t count = 0;
 
 	if (h == NULL)
 	{
@@ -20,10 +18,10 @@ size_t print_list(const list_t *h)
 	while (h != NULL)
 	{
 		{
-			printf("%s", h->data);
+			printf("%d", h->len);
 		}
 		count ++;
-		h = h->h;
+		h = h->next;
 	}
 	return (count);	
 }
